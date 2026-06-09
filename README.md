@@ -1,21 +1,23 @@
-<<<<<<< HEAD
-# React + Vite
+# Tic Tac Toe Board 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Tic Tac Toe game board. Players alternate between X and O on a 3x3 grid, with winner detection, draw handling, and a reset button for replay. Designed with functional components, hooks, and responsive styling for a clean and fun user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ⚛️ Built with **React** (functional components + hooks)
+- 🎨 Styled with CSS grid for a 3x3 board
+- 🔄 Alternating X and O moves
+- 🏆 Winner detection and draw handling
+- 🔁 Reset button to restart the game
+- 📱 Responsive design for desktop and mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 Project Structure
+- `src/` → React components and game logic
+- `public/` → Static assets
+- `package.json` → Project dependencies
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# TicTacToe-Board
-coming....
->>>>>>> 20f22878d56cb1a332b17c5dc022207d94bd59e1
+## 🛠 Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/nicholasmuinde26-hue/TicTacToe-Board.git
+cd TicTacToe-Board
+npm install
